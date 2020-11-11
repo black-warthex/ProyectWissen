@@ -4,7 +4,7 @@ Class Conexion {
 
 	Public Static Function conexionDB(){
 		try{
-			$cnn=new PDO('mysql:host=localhost;dbname=wissen','warthex','1507');
+			$cnn=new PDO('mysql:host=db4free.net;dbname=wissen','warthex','dbwissen');
 			$cnn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	
 		}catch(Exception $e){
