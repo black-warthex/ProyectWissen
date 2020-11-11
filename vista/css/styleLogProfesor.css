@@ -1,0 +1,186 @@
+.title_mat{
+	width: 50%;
+	background: #4BC6B1;
+	height: 30px;
+	box-shadow: 0px 0px 5px #000;	
+	margin-bottom: 20px;	
+}
+
+.letra_title{			 
+	 font-size: 25px;
+	 color: #FFF;	  
+	 text-align: center;
+}
+
+.content_view{
+	width: 50%;
+	background: #FFF;
+	height: auto;
+	box-shadow: 0px 0px 5px #000;
+	padding-bottom: 10px;
+	margin-bottom: 30px;	
+	margin-top: -20px;
+}
+
+.alum{
+	color: #FFF;
+	opacity: 0.7;
+	cursor: pointer;
+}
+select{
+	width: 100%;
+	border-style: none;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px #000;
+}
+.agregar{
+	
+	display: block;
+	margin-left: 1px;
+	margin-top: 10px;
+}
+
+.NO_CALIFICADO{
+color: #FFF;
+	background: #6250DB;
+	opacity: 0.4;
+}
+.APROBADO{
+	color: #FFF;
+	background: #46A049;
+	opacity: 0.8;
+
+}
+.NO_APROBADO{
+color: #FFF;
+	background: #EB3C2C;
+	opacity: 0.8;
+}
+td{
+	width: 50%;
+
+}
+
+table{
+	width: 100%;	
+}
+.log{
+	padding-left: 10px;
+	font-size: 20px;
+}
+.del{
+	text-align: center;
+}
+.content_edit{
+	width: 50%;
+	background: #FFF;
+	height: auto;
+	box-shadow: 0px 0px 5px #000;	
+	margin-bottom: 30px;	
+	margin-top: -20px;		
+}
+
+.select{
+	width: 50%;
+	height: 30px;
+	display: block;
+	border-style: none;
+	border-radius: 5px;
+  	box-shadow: 0px 0px 4px #000;
+	margin-bottom: 20px;
+}
+
+.subtitle_log{
+	font-size: 30px;
+	color: #000;
+	display: block;
+	opacity: 0.5;
+	margin-bottom: 20px;	
+
+}
+.es{
+	margin-left: 5px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+/*CHECKBOX*/
+ /* Customize the label (the container) */
+.containerL {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 2px;
+  cursor: pointer;
+  font-size: 20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-left: 10px;
+}
+
+/* Hide the browser's default checkbox */
+.containerL input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.containerL:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.containerL input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.containerL input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.containerL .checkmark:after {
+  left: 7px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+} 
+
+@media screen and (max-width: 500px)	{
+	.content_view{
+    width: 100%;
+}
+.title_mat{
+    width: 100%;
+}
+.content_edit{
+    width: 100%;
+}
+}

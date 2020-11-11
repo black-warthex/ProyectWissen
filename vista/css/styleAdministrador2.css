@@ -1,0 +1,438 @@
+.actualizar_p{
+width: 40%;
+    margin: auto;
+    text-align: left;
+
+}
+.actualizar_p .input_curso{
+    width: 100%;
+}
+/*INCIO HORARIO*/
+.text_horario{
+    font-size: 22px;
+    display: block;
+    text-align: left;
+    margin-left: 1%;
+    margin-top: 20px;
+    opacity: 0.7;
+}
+.ver_log{
+    font-size: 25px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 3px;
+    border: 2px solid;      
+    border-color:#FB561A;  
+    opacity: 0.5;
+    
+}
+
+.materia-hora{
+    font-size: 20px;    
+
+}
+
+.materia-hora label{
+display: block;
+float: left;
+width: 33%;
+margin-bottom: 20px;
+text-align: center;
+}
+
+.materia-hora input{
+display: block;
+width: 70%;
+margin-bottom: 20px;   
+height: 30px;
+border-radius: 10px;
+border: 2px solid   #DADCE0;
+
+}
+
+.buscar_horario{
+    width: 100%;    
+    margin: auto;
+    text-align: center;
+    display: block; 
+}
+.btn_busca{
+    width: 30%;
+    height: 35px;
+    border-style: none;
+    background: #01CCF0;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn_busca:hover{
+    box-shadow: 1px 1px 10px #01CCF0;
+}
+
+.buscar_horario .busca{    
+    width: 50%;
+    height: 35px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 1%;
+    border-radius: 10px;
+    border: 2px solid   #DADCE0;
+}
+.buscar_horario .busca_select{    
+    width: 30%;
+    height: 30px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 1%;
+    border-radius: 10px;
+    border: 2px solid   #DADCE0;
+}
+section{
+    width: 100%;
+}
+.buscar_horario .btn_busca{
+
+width: 10%;
+height: 34px;
+margin-top: 20px;
+margin-bottom: 10px;
+margin-left: -35%;
+}
+
+.materia-hora select{
+display: block;
+width: 70%;
+margin-bottom: 20px;   
+height: 30px;
+border-radius: 10px;
+border: 2px solid   #DADCE0;
+
+}
+
+
+
+.hora_oculta{
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+}
+
+
+.hora_oculta select{ 
+width: 33%;
+height: 30px;
+border-radius: 10px;
+border: 2px solid   #DADCE0;
+margin: auto;
+margin-bottom: 20px;
+text-align: center;
+margin-left: 1%;
+font-size: 20px;
+opacity: 0.6;
+}
+.hora_oculta select:focus{
+    opacity: 1;
+}
+
+.hora_oculta label{    
+display: block;
+float: left;
+width: 30%;
+margin-bottom: 20px;
+text-align: center;
+opacity: 0.6;
+}
+
+
+
+/*crear una caja flexible*/
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+}
+.opaco{
+    opacity: 0.6;
+}
+
+/*centrar texto*/
+.text-center{
+    text-align: center;    
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+}
+.columna{    
+    margin: auto;
+    padding: 10px;    
+    width: 90%;
+    border-radius: 10px;
+    border: 2px solid   #DADCE0;
+    text-align: left;
+}
+/*configuracion para el boton editar*/
+
+
+
+
+.titulo-dia{
+    text-align: center;
+    font-size: 30px;
+    color: #FFC60B;
+    border-style: none;
+    border-radius: 10px;
+    height: 40px;
+  
+
+}
+.titulo-dia:hover{
+    color: #FFF;
+}
+.lunes{
+	
+	background: transparent;	
+	border-radius: 5px;
+	border: 2px solid;      
+    border-color:#FFC60B;  
+    opacity: 0.6;
+
+}
+.lunes:hover{
+	opacity: 0.8;
+	background: #FFC60B;	
+}
+/*.lunes{
+    background: #FFC60B;
+}*/
+.martes{
+    background: #ED2724;
+}
+.miercoles{
+    background: #00ADEF;
+}
+.jueves{
+    background: #ED008C;
+}
+.viernes{
+    background: #B3D236;
+}
+/*Materias*/
+.btn-reg_mat{
+    width: 30%; 
+    height: 40px;
+    background-color:#2B445A;
+    color: #FFF;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 6px;
+    cursor: pointer;        
+    text-align: center;            
+    margin: auto;   
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px
+}
+
+.btn-reg_mat:hover{
+    box-shadow: 1px 1px 10px #2B445A;
+}
+
+/*FIN HORARIO*/
+.text-titulo-curso{        
+        text-align: left;
+	background:  linear-gradient(#FEC519,#FB561A);
+	-webkit-background-clip: text;
+  	color: transparent; 
+	font-size: 40px;
+        margin-left: 20%;
+}
+.text-sub{
+    display: block;
+    font-size: 23px;
+    opacity: 0.8;
+    
+}
+
+.input_curso{
+        text-align: left;
+    	display: block;
+	margin: left;
+	width:  65%;
+	height: 40px;	
+	margin-bottom: 15px;
+	border-radius: 10px;
+	border: 1px solid #DADCE0;
+	font-size: 20px;
+	opacity: 0.7;
+}
+.input_curso:focus{
+    opacity:1;
+}
+.activo{
+	background: #FEC519;
+	
+	border-radius: 5px;
+	font-size: 18px;
+	
+}
+p{
+    display: block;
+}
+h2{
+	font-size: 23px;
+	opacity: 0.8;
+}
+.campo_dato{
+	opacity: 0.6;
+	font-size: 20px;
+}
+.foto{
+    width:150px;
+    height:150px;
+    border-radius:150px;
+    margin-bottom: 10px;   
+    display:block;
+    margin: auto;
+  
+    border: 6px solid;      
+    border-color:#FB561A;                
+}
+.btn_editar_p{
+	width: 50%;
+	margin: auto;
+	height: 40px;
+	display: block;
+	background: transparent;
+	color: #FB561A;
+	border-radius: 5px;
+	border: 2px solid;      
+    border-color:#FB561A;  
+    opacity: 0.6;
+}
+.btn-salir{
+	border-style: none;
+	background: transparent;	
+	border-radius: 5px;
+	border: 2px solid;      
+    border-color:#FB561A;  
+    opacity: 0.6;
+
+}
+.btn-salir:hover{
+	opacity: 0.8;
+	background: #FB561A;	
+}
+
+#text_salir{
+		
+	  color: #FB561A;
+}
+#text_salir:hover{
+	color: #FFF;
+}
+.btn_editar_p:hover{
+	opacity: 0.8;
+	background: #FB561A;
+	color: #FFF;
+}
+#datos{
+	
+	width: 40%;
+	margin: auto;
+	text-align: left;
+}
+.nombre{
+	color: #000;
+	font-size: 35px;
+	opacity: 0.8;
+}
+#saludo{
+	text-align: center;
+	background:  linear-gradient(#FEC519,#FB561A);
+	-webkit-background-clip: text;
+  	color: transparent; 
+	font-size: 40px;
+}
+#color-letra-link{
+	color: #000;
+	opacity: 0.8;
+}
+.text-center{
+	text-align: center;
+}
+#color-letra-link:focus{
+	opacity: 1;
+	color: #FFF;
+}
+.container{
+	width: 90%;
+	height: auto;
+	margin: auto;
+	margin-top: 1%;
+	
+}
+.secciones p{
+   display: block;
+}
+/*ZONA COMENTARIOS*/
+.text-center{
+cursor: pointer;
+}
+.comentario
+{
+    width: 60%;
+    margin: left;
+
+}
+
+.tit{
+    background: #FED147;
+    color: #FFF;
+    font-size: 25px;
+    border-style: none;         
+    border-radius:5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.style_l_comentario{
+    margin-left: 1%;
+    color:#FB561A;
+    font-size: 20px; 
+    display: block;
+
+}
+.campo_comentario{
+    font-size: 20px;
+    color: #000;
+    opacity: 0.5;
+}
+.des{
+border-radius:5px;
+border: 2px solid   #FED147;
+}
+@media screen and (max-width: 700px){
+	.container{
+		width: 100%;
+	}
+	#datos{
+		width: 100%;
+	}
+        .text-titulo-curso{
+            margin-left: 0;
+        }
+        .input_curso{
+            width: 100%;
+        }
+        .actualizar_p{
+            width: 100%;    
+        }
+        .comentario{
+width: 100%;
+        }
+}
+

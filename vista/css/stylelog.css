@@ -1,0 +1,265 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+html{	
+	scroll-behavior: smooth;
+	overflow: hidden;
+}
+
+.content_1{
+	position: relative;
+	width: 100%;
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	margin-bottom: 20vh;
+} 
+
+.content_1:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(45deg,#9C27B0,red);
+	border-radius: 0 0 50% 50%/0 0 100% 100%;
+	transform:scaleX(1.5);
+}
+.content_1 .content{
+	position: relative;
+	z-index: 1;
+	margin: 0 auto;
+	max-width: 900px;
+	text-align: center;
+}
+
+.content_1 .content h2{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 3em;
+	text-shadow:2px 2px 20px #000; 
+	
+}
+
+.content_1 .content p{
+	color: #fff;
+	font-size: 1.5em;
+
+}
+.content_1 .content button{
+	color: #fff;
+	font-size: 1.5em;
+	width: auto;
+	height: 40px;
+	background: linear-gradient(50deg,#4a7ff7,#f52fcf);
+	border: none;
+	border-radius: 10%;
+	opacity: 0.9;
+	cursor: pointer;
+	transition: all 300ms;
+
+}
+
+.content_1 .content button:hover{
+	transform: translateY(2px);
+	box-shadow: 0px 30px 5px -15px rgba(0,0,0,0.3);
+
+}
+
+.content_1 .content .li{
+
+	display: block;
+	color: #fff;
+	font-size: 17px;
+	width: 160px;
+	height: 21px;
+	background: linear-gradient(50deg,#4a7ff7,#f52fcf);
+	border: none;
+	border-radius: 5px;	
+	opacity: 0.9;
+	cursor: pointer;
+	transition: all 300ms;
+	margin: auto;
+	text-decoration: none;
+	transition: all 300ms;
+
+}
+
+.content_1 .content .li:hover{
+	text-decoration: none;
+	color: #fff;
+	opacity: 1;
+}
+
+#particles-js{
+	position: absolute;
+	width: 100%;
+
+}
+/*style for form*/
+
+.modal-header{	
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	text-align: center;
+	border-radius: 0 0 50% 50%;
+	background: rgba(0,0,0,0.1);
+}
+.modal-header img{
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height :50px;
+}
+
+.modal-header .modal-title{
+	width: 100%;	
+	display: block;
+	margin-left: 30px;	
+	color: #FFF;
+	text-shadow: 3px 3px 20px #000;
+	font-size: 20px;
+	
+
+}
+ 
+.modal-body button{
+	display: block;
+	margin: auto;
+}
+
+.c{	
+	margin-top: -30px;		
+	background: linear-gradient(50deg,#4a7ff7,#f52fcf);
+}
+
+.c:hover{
+	transform: translateY(2px);
+	box-shadow: 0px 20px 5px -10px rgba(0,0,0,0.3);	
+}
+.modal-body h1{
+	opacity: 0.4;
+	text-align: center;
+	display: block;	
+}
+
+.modal-body img{
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin: auto;
+}
+
+/*formulario animado*/
+
+.formulario{
+	width: 100%;
+	margin: auto;
+	margin-top: 30px;	
+	position: relative;
+}
+.formulario_input, .formulario_label{
+	display: block;			
+	font-size: 1.3rem;
+}
+
+.formulario_input{
+	width: 100%;
+	padding: 10px;		
+	border-top:3px solid  transparent;
+	border-right:3px solid  transparent;
+	border-left:3px solid  transparent;
+	border-bottom: 3px solid rgba(0,0,0,0.2);
+	margin-bottom: 40px;	
+	outline: 0px;		
+}
+
+.formulario_input:focus{	
+	transition: 1s;
+	border: 3px solid rgba(156, 39, 176,0.5);
+	border-radius: 10px;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.3);		
+	
+}
+
+.formulario_label{
+	
+	position: absolute;
+	margin-top: -115px;	
+	margin-left: 10px;
+	color: rgba(0,0,0,0.5);
+	background: white;
+	cursor: pointer;
+
+}
+
+
+@media screen and (max-width: 500px){
+
+
+	.content_1{
+		height: 90vh;	
+		margin-bottom: 10vh;
+	}
+	.content_1:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(45deg,#9C27B0,red);
+	border-radius: 0 0 50% 50%/0 0 30% 30%;
+	transform:scaleX(1.5);
+	}
+
+	.content_1 .content h2{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 2.5em;
+}
+
+	.content_1 .content p{
+	color: #fff;
+	font-size: 1.4em;
+
+	}
+
+}
+
+
+@media screen and (max-width: 370px){
+	.content_1{
+		height: 85vh;	
+		margin-bottom: 15vh;
+	}
+
+	.content_1 .content h2{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 2em;
+	}
+
+	.content_1 .content p{
+	color: #fff;
+	font-size: 1.3em;
+
+	}
+
+	.content_1 .content button:hover{	
+	transform: translateY(0px);
+	box-shadow: 0px 30px 5px -15px rgba(0,0,0,0.3);
+
+}
+
+}

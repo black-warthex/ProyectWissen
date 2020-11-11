@@ -1,0 +1,395 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.datos-persona{
+    width: 26%;   
+    float: left;   
+    height: 640px;
+    border-radius: 10px;
+    border: 2px solid   #DADCE0;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.contenido{
+    width: 70%;
+    height: 640px;    
+    border-radius: 10px;
+    border: 2px solid   #DADCE0;
+    align-items: center;
+    margin-top: 1%; 
+    overflow: auto;
+
+}
+
+.foto{
+    margin-top: 5%;
+    margin-left: 25%;
+    width:150px;
+    height:150px;
+    border-radius:150px;
+    border:10px solid  #DADCE0;
+    margin-bottom: 10px;
+}
+
+.text-titulo{
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.text-titulo-1{
+    
+    font-size: 20px;
+    display: block;
+    margin-left: 11.5%;
+
+}
+.text-content{    
+    font-size: 20px;
+    display: block;
+    margin-left: 11.5%;
+    opacity: 0.7;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.btn-salir{
+    width: 30%; 
+    height: 40px;
+    background-color: #1A73E8;
+    color: #FFF;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 6px;
+    cursor: pointer;        
+    text-align: center;            
+    margin-left: 30%;
+}
+
+.btn-salir:hover{
+    box-shadow: 1px 1px 10px #91B7F9;
+}
+/*estilo para ingresar cursos*/
+.text-titulo-curso{
+    text-align: center;
+    background:#5E3986;
+    color: #fff;
+}
+.text-sub{
+    font-size: 20px;
+    display: block;    
+    opacity: 0.7;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.input_curso{
+    width: 50%;
+    height: 30px;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    border: 2px solid   #DADCE0;
+    font-size: 25px;
+    opacity: 0.6;
+}
+.input_curso:focus{
+    opacity: 1;
+}
+.input_curso_dos{
+    width: 50%;
+    height: 100px;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    border: 2px solid   #DADCE0;
+    font-size: 25px;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+.input_curso_dos:focus{
+    opacity: 1;
+}
+.horario{
+    background: #2B445A;
+}
+
+.btn-reg_cur{
+    width: 30%; 
+    height: 40px;
+    background-color:#5E3986;
+    color: #FFF;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 6px;
+    cursor: pointer;        
+    text-align: center;            
+    margin: auto;   
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px
+}
+
+.btn-reg_cur:hover{
+    box-shadow: 1px 1px 10px #5E3986;
+}
+
+/*Estilo de horario*/
+.text_horario{
+    font-size: 22px;
+    display: block;
+    text-align: left;
+    margin-left: 1%;
+    margin-top: 20px;
+    opacity: 0.7;
+}
+.materia-hora{
+    font-size: 20px;    
+
+}
+
+.materia-hora label{
+display: block;
+float: left;
+width: 33%;
+margin-bottom: 20px;
+text-align: center;
+}
+
+.materia-hora input{
+display: block;
+width: 70%;
+margin-bottom: 20px;   
+height: 30px;
+border-radius: 10px;
+border: 2px solid   #DADCE0;
+
+}
+
+.buscar_horario{
+    width: 100%;    
+    margin: auto;
+    text-align: center;
+    display: block; 
+}
+.btn_busca{
+    width: 30%;
+    height: 35px;
+    border-style: none;
+    background: #01CCF0;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn_busca:hover{
+    box-shadow: 1px 1px 10px #01CCF0;
+}
+
+.buscar_horario .busca{    
+    width: 50%;
+    height: 35px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 1%;
+    border-radius: 10px;
+    border: 2px solid   #DADCE0;
+}
+.buscar_horario .busca_select{    
+    width: 30%;
+    height: 30px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 1%;
+    border-radius: 10px;
+    border: 2px solid   #DADCE0;
+}
+section{
+    width: 100%;
+}
+.buscar_horario .btn_busca{
+
+width: 10%;
+height: 34px;
+margin-top: 20px;
+margin-bottom: 10px;
+margin-left: -35%;
+}
+
+.materia-hora select{
+display: block;
+width: 70%;
+margin-bottom: 20px;   
+height: 30px;
+border-radius: 10px;
+border: 2px solid   #DADCE0;
+
+}
+
+
+.hora_oculta{
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+}
+
+
+.hora_oculta select{ 
+width: 33%;
+height: 30px;
+border-radius: 10px;
+border: 2px solid   #DADCE0;
+margin: auto;
+margin-bottom: 20px;
+text-align: center;
+margin-left: 1%;
+font-size: 20px;
+opacity: 0.6;
+}
+.hora_oculta select:focus{
+    opacity: 1;
+}
+
+.hora_oculta label{    
+display: block;
+float: left;
+width: 30%;
+margin-bottom: 20px;
+text-align: center;
+opacity: 0.6;
+}
+
+
+.btn-editarMat:hover{
+    cursor: pointer;
+     box-shadow: 1px 1px 10px #019ADE;
+}
+/*crear una caja flexible*/
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+}
+.opaco{
+    opacity: 0.6;
+}
+
+/*centrar texto*/
+.text-center{
+    text-align: center;    
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+}
+.columna{    
+    margin: 10px;
+    padding: 10px;    
+    width: 95%;
+    border-radius: 10px;
+    border: 2px solid   #DADCE0;
+    text-align: left;
+}
+/*configuracion para el boton editar*/
+
+
+
+.btn-editarPrin{
+    background: #2B445A;
+    /*convertir en elemento de bloque en vez de solo letra*/        
+    margin: auto;
+    height: 40px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;    
+    font-size: 20px;
+    border-style: none;   
+    margin-top: 20px;   
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: 50%;
+    display: block;
+
+}
+
+.btn-editarPrin:hover{
+
+     box-shadow: 1px 1px 10px #2B445A;
+}
+
+.titulo-dia{
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    border-style: none;
+    border-radius: 10px;
+    height: 40px;
+    margin-bottom: 30px;
+
+}
+
+.lunes{
+    background: #FFC60B;
+}
+.martes{
+    background: #ED2724;
+}
+.miercoles{
+    background: #00ADEF;
+}
+.jueves{
+    background: #ED008C;
+}
+.viernes{
+    background: #B3D236;
+}
+/*Materias*/
+.btn-reg_mat{
+    width: 30%; 
+    height: 40px;
+    background-color:#2B445A;
+    color: #FFF;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 6px;
+    cursor: pointer;        
+    text-align: center;            
+    margin: auto;   
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px
+}
+
+.btn-reg_mat:hover{
+    box-shadow: 1px 1px 10px #2B445A;
+}
+.logg{
+    text-align: center; 
+    margin: auto;
+    width: 90%;
+    border: 1px solid   #DADCE0;
+    font-size: 20px;
+    opacity: 0.6;   
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.te{
+    width: 100%;    
+    display: block;
+    background-color:#2B445A;
+    color: #FFF;
+    font-size: 30px;
+    border-style: none;
+    border-radius: 6px;
+    text-align: center;
+}
